@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos existentes ... */
+
+/* Asegúrate de que el efecto de blur funcione correctamente */
+.blur-effect {
+  will-change: filter;
+  transition: filter 0.3s ease;
+}
+
+/* Ajusta el z-index para que el marco cyan aparezca por encima del texto */
+.word-focus-frame {
+  z-index: 10;
+}
+
